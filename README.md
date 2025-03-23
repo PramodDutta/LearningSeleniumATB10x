@@ -96,7 +96,7 @@ Before getting started, ensure you have the following installed:
 ## 🛠 Installation Guide
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-repo/selenium-learning-guide.git
+   git clone https://github.com/pramoddutta/selenium-learning-guide.git
    ```
 2. Open the project in Eclipse/IntelliJ
 3. Install dependencies using Maven:
