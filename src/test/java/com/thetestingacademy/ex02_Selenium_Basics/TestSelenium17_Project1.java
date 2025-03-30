@@ -9,6 +9,8 @@ import org.openqa.selenium.edge.EdgeOptions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import static com.thetestingacademy.ex07_WaitHelper.WaitHelpers.waitJVM;
+
 public class TestSelenium17_Project1 {
 
     @Description("Verify that with invalid email, pass, error message is shown on the app.vwo.com")
@@ -66,6 +68,8 @@ public class TestSelenium17_Project1 {
 
         WebElement buttonSubmit = driver.findElement(By.id("js-login-btn"));
         buttonSubmit.click();
+
+//        waitJVM(3000);
 
         Thread.sleep(3000);
 
