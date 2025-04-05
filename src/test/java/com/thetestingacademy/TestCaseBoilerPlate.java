@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 public class TestCaseBoilerPlate {
 
-    EdgeDriver driver;
+    public EdgeDriver driver;
 
     @BeforeTest
     public void openBrowser(){

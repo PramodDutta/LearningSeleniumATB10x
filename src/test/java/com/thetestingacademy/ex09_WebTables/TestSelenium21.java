@@ -1,4 +1,4 @@
-package com.thetestingacademy_ex_09_Webtables;
+package com.thetestingacademy.ex09_WebTables;
 
 import io.qameta.allure.Description;
 import org.openqa.selenium.By;
